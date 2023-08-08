@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using NAudio;
 using NAudio.Wave;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using Microsoft.VisualBasic.Devices;
 
 namespace Radioactive
 {
@@ -17,6 +18,9 @@ namespace Radioactive
         bool disablemusic = false;
         bool hideserverbtn = false;
 
+
+
+
         public Radioactive()
         {
             InitializeComponent();
@@ -25,7 +29,7 @@ namespace Radioactive
 
         private IWavePlayer wavePlayer;
         private List<string> mp3Files = new List<string>
-        {
+        {     
             "BoulevardofBrokenDreams.mp3",
             "25ScratchReminder.mp3",
             "LeanOn.mp3",
@@ -41,7 +45,10 @@ namespace Radioactive
 
         private DiscordRpcClient client;
 
+        private void LoadResources()
+        {
 
+        }
 
 
         private string ReadPathFromConfigFile()

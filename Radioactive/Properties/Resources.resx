@@ -117,20 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="25ScratchReminder" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\sounds\25ScratchReminder.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="9PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\sounds\9PM.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="BoulevardofBrokenDreams" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\sounds\BoulevardofBrokenDreams.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="GooseBumps" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\sounds\GooseBumps.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LeanOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\sounds\LeanOn.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
 </root>

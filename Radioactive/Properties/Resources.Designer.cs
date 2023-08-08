@@ -59,55 +59,5 @@ namespace RebellionLauncher.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] _25ScratchReminder {
-            get {
-                object obj = ResourceManager.GetObject("25ScratchReminder", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] _9PM {
-            get {
-                object obj = ResourceManager.GetObject("9PM", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] BoulevardofBrokenDreams {
-            get {
-                object obj = ResourceManager.GetObject("BoulevardofBrokenDreams", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] GooseBumps {
-            get {
-                object obj = ResourceManager.GetObject("GooseBumps", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] LeanOn {
-            get {
-                object obj = ResourceManager.GetObject("LeanOn", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
     }
 }
