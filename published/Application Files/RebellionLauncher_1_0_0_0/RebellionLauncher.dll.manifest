@@ -143,22 +143,22 @@
       <dsig:DigestValue>TAFBQdGpR4q6/wGBHp52FQk0JDq3qTRLtGpwOx0Znx4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="RebellionLauncher.dll" size="12227584">
+  <file name="RebellionLauncher.dll" size="12227072">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>8hZnLc7IiO3bboH0FMIdlA5pqqOHQ8Bj5HLuPwoSBmk=</dsig:DigestValue>
+      <dsig:DigestValue>PT8PFh1wm3bSPK4pwHI/lVcf80hEreSdegTl1H7G9lg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="RebellionLauncher.exe" size="147968">
+  <file name="RebellionLauncher.exe" size="147456">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>lHemBYuZvnsB/O8wAjAeDl1qTK1K8Eywz5vTMsnseeA=</dsig:DigestValue>
+      <dsig:DigestValue>rwjnQnjqRCci+hv06iMoCQ/afhPtAmyLZG0TvHe+8Jw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="RebellionLauncher.runtimeconfig.json" size="372">
