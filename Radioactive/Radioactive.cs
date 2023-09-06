@@ -14,6 +14,7 @@ namespace Radioactive
 {
     public partial class Radioactive : Form
     {
+        //bool init
         bool stopmusic = false;
         bool disablemusic = false;
         bool hideserverbtn = false;
@@ -143,7 +144,7 @@ namespace Radioactive
                     }
                 };
 
-                // Ažuriranje prisutnosti (presence) na Discord-u
+                //presence update
                 client.SetPresence(presence);
             }
         }
@@ -169,7 +170,7 @@ namespace Radioactive
 
                                 if (bool.TryParse(value, out bool state))
                                 {
-                                    // Pronađemo odgovarajući checkbox po ključu i primenimo stanje
+                                    //checking for checkboxes
                                     switch (key)
                                     {
                                         case "Option7State":
@@ -225,17 +226,17 @@ namespace Radioactive
             rustPath = ReadPathFromConfigFile();
 
 
-            // Inicijalizacija DiscordRPC klijenta
+            // DRPC init
             client = new DiscordRpcClient("1118282039058251776");
             client.Logger = new ConsoleLogger() { Level = LogLevel.Warning };
 
-            // Povezivanje događaja
+            // Event handling
             client.OnReady += (s, args) =>
             {
                 MessageBox.Show("Rich Pressence online!");
             };
 
-            // Pokretanje DiscordRPC-a
+            // DiscordRPC startup
             client.Initialize();
 
             UpdatePresence();
@@ -328,7 +329,7 @@ namespace Radioactive
                 }
                 else
                 {
-                    // Korisnik nije odabrao izvršnu datoteku, prekidamo pokretanje
+                    // exit
                     return;
                 }
             }
@@ -413,22 +414,18 @@ namespace Radioactive
 
         private void SetVolume(float volume)
         {
-            // Postavite jačinu zvuka pomoću NAudio biblioteke
-            // Na primer, ako koristite WaveOutEvent:
             wavePlayer.Volume = volume;
         }
 
         private float MapToNAudioValue(int trackBarValue)
         {
-            // Mapiranje vrednosti iz opsega trackBar na opseg NAudio
             float minTrackBarValue = volumebar.Minimum;
             float maxTrackBarValue = volumebar.Maximum;
             float minNAudioValue = 0.0f;
             float maxNAudioValue = 1.0f;
 
-            // Proračunajte normalizovanu vrednost
             float normalizedValue = (trackBarValue - minTrackBarValue) / (maxTrackBarValue - minTrackBarValue);
-            // Mapiranje na opseg NAudio
+
             float mappedValue = minNAudioValue + (maxNAudioValue - minNAudioValue) * normalizedValue;
 
             return mappedValue;
